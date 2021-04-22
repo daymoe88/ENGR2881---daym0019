@@ -141,38 +141,35 @@ END:ci
 # Question 'cj': Define a network layout that would be suitable for a Client-Server architecture}
 BEGIN:cj
 END:cj
-# Question 'ck': Define a network layout that would be suitable for a Peer-to-Peer architecture}
+# Question 'ck': Describe your network layout that would be suitable for a Client-Server architecture
 BEGIN:ck
 END:ck
+# Question 'cl': Define a network layout that would be suitable for a Peer-to-Peer architecture}
+BEGIN:cl
+END:cl
+# Question 'cm': Describe your peer-to-peer network topology.
+BEGIN:cm
+END:cm
 ## Write statements that are true or false for various lecture slides.
+# Question 'cn': Do you grant your following quiz questions to the public domain?
 cl=
-# Question 'cl': Write a true statement about the content of Slide 48 of Chapter 2
+# Question 'co': Write a true statement about the content of Slide 48 of Chapter 2
 cl=
-cl=QUIZ:1:48:2
-# Question 'cm': Write a false statement about the content of Slide 112 of Chapter 3
+# Question 'cp': Write a false statement about the content of Slide 112 of Chapter 3
 cl=
-cm=QUIZ:0:112:3
-# Question 'cn': Write a false statement about the content of Slide 84 of Chapter 2
+# Question 'cq': Write a false statement about the content of Slide 84 of Chapter 2
 cl=
-cn=QUIZ:0:84:2
-# Question 'co': Write a false statement about the content of Slide 131 of Chapter 2
+# Question 'cr': Write a false statement about the content of Slide 131 of Chapter 2
 cl=
-co=QUIZ:0:131:2
-# Question 'cp': Write a false statement about the content of Slide 38 of Chapter 1
+# Question 'cs': Write a false statement about the content of Slide 38 of Chapter 1
 cl=
-cp=QUIZ:0:38:1
-# Question 'cq': Write a false statement about the content of Slide 141 of Chapter 2
+# Question 'ct': Write a false statement about the content of Slide 141 of Chapter 2
 cl=
-cq=QUIZ:0:141:2
-# Question 'cr': Write a true statement about the content of Slide 9 of Chapter 2
+# Question 'cu': Write a true statement about the content of Slide 9 of Chapter 2
 cl=
-cr=QUIZ:1:9:2
-# Question 'cs': Write a false statement about the content of Slide 52 of Chapter 2
+# Question 'cv': Write a false statement about the content of Slide 52 of Chapter 2
 cl=
-cs=QUIZ:0:52:2
-# Question 'ct': Write a true statement about the content of Slide 7 of Chapter 4
+# Question 'cw': Write a true statement about the content of Slide 7 of Chapter 4
 cl=
-ct=QUIZ:1:7:4
-# Question 'cu': Write a true statement about the content of Slide 1 of Chapter 1
+# Question 'cx': Write a true statement about the content of Slide 1 of Chapter 1
 cl=
-cu=QUIZ:1:1:1
