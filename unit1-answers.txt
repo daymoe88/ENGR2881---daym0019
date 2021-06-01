@@ -1,6 +1,6 @@
 ## Specify the OSI Layer to which best matches each statement
 # Question 'ab': Which layer best fits this statement: Responsible for flow-control in a network
-ab= 	The Transport layer.
+ab= The Transport layer.
 # Question 'ac': Which layer best fits this statement: Corrects the order of received packets, if they are received out of order
 ac= the TCP/IP application layer
 # Question 'ad': Which layer best fits this statement: Interprets the address in the header to determine which receiver on a local network segment should receive it.
@@ -23,7 +23,6 @@ ak= The Network Layer
 al= The Transport layer
 # Question 'am': Which layer best fits this statement: Facilitates connection-oriented communications
 am= The Transport layer
-
 # Question 'an': Which layer best fits this statement: Responsible for human-computer interaction
 an= The Application Layer
 # Question 'ao': Which layer best fits this statement: Provides galvanic isolation between nodes on a network
