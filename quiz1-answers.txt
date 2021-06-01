@@ -1,5 +1,5 @@
 ## Quiz #1: Chapters 1 to 3
-	# Question 'ab': True or false: If a sender does not receive an acknowledgement after a reasonable amount of time, it may re-transmit the original frame
+# Question 'ab': True or false: If a sender does not receive an acknowledgement after a reasonable amount of time, it may re-transmit the original frame
 ab= true
 # Question 'ac': True or false: BISYNC uses special sentinel characters to identify where the data portion of a frame starts and end
 ac= true
