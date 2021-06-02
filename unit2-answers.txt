@@ -1,34 +1,34 @@
 ## Socket Programming General True or False Statements
 # Question 'ab': True or false: The send() function for the C programming language performs the same function as write(), but without the possibility to set flags.
-ab= false
+ab= True
 # Question 'ac': True or false: A network socket usually contains addressing information for layer 3, but not layer 4
-ac= True
+ac= false
 # Question 'ad': True or false: The send() function for the C programming language can be used to write data to a connection-oriented socket.
-ad=True
+ad=false
 # Question 'ae': True or false: The send() function for the C programming language allows setting the destination address when writing to connection-less sockets.
-ae= True
+ae= false
 # Question 'af': True or false: The connect() function for the C programming language normally requires the network address, but not any layer 4 address of the target.
 af= false
 # Question 'ag': True or false: The send() function for the C programming language can be used to write out-of-band data to a socket.
 ag= false
 # Question 'ah': True or false: The bind() function for the C programming language creates a network socket and binds it to a network address
-ah= True
+ah= false
 # Question 'ai': True or false: The accept() function for the C programming language checks for newly received socket connections.
-ai= false
+ai= True
 # Question 'aj': True or false: The socket() function for the C programming language requires a network address, to be able to create a socket.
-aj= True
+aj= false
 # Question 'ak': True or false: The listen() function for the C programming language causes a socket to actively connect via the network to listen for applications that require it.
-ak= True
+ak= false
 # Question 'al': True or false: The close() function for the C programming language closes a server's socket and all open connections created by that socket.
-al= True
+al= false
 # Question 'am': True or false: The recv() function for the C programming language can only be used to read from UDP sockets
-am= false
+am= True
 # Question 'an': True or false: The accept() function for the C programming language accepts all waiting network sockets each time it is called.
-an= True
+an= false
 # Question 'ao': True or false: The read() function for the C programming language can be used to receive data from sockets.
-ao= false
+ao= True
 # Question 'ap': True or false: The read() function for the C programming language is the best choice for reading data from a UDP socket.
-ap= True
+ap= false
 ## Correct the lines in the supplied programme
 aq=
 ar=
