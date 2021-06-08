@@ -1,69 +1,69 @@
 ## Specify the OSI Layer to which best matches each statement
 # Question 'ab': Which layer best fits this statement: Responsible for flow-control in a network
-ab= The Transport layer.
+ab=4
 # Question 'ac': Which layer best fits this statement: Corrects the order of received packets, if they are received out of order
-ac= the TCP/IP application layer
+ac=3
 # Question 'ad': Which layer best fits this statement: Interprets the address in the header to determine which receiver on a local network segment should receive it.
-ad= the network layer
+ad=3
 # Question 'ae': Which layer best fits this statement: Is used to abstract the network for user-oriented programmes
-ae= the application layer
+ae=7
 # Question 'af': Which layer best fits this statement: Detects and reacts to congestion on network path between distant nodes
-af= the Network Layer	
+af=3
 # Question 'ag': Which layer best fits this statement: Responsible for the forwarding or messages or packets
-ag= The Network Layer
+ag= 3
 # Question 'ah': Which layer best fits this statement: Responsible for electromagnetic compatibility
-ah= The Physical Layer
+ah=1
 # Question 'ai': Which layer best fits this statement: Responsible for electromagnetic spectrum allocation
-ai= The Physical Layer
+ai=1
 # Question 'aj': Which layer best fits this statement: De-duplicates received packets
-aj= The network Layer
+aj=3
 # Question 'ak': Which layer best fits this statement: Provides globally addressable identifiers for nodes on large networks
-ak= The Network Layer
+ak=3
 # Question 'al': Which layer best fits this statement: The layer where virtual circuits can be established
-al= The Transport layer
+al=4
 # Question 'am': Which layer best fits this statement: Facilitates connection-oriented communications
-am= The Transport layer
+am=4
 # Question 'an': Which layer best fits this statement: Responsible for human-computer interaction
-an= The Application Layer
+an=7
 # Question 'ao': Which layer best fits this statement: Provides galvanic isolation between nodes on a network
-ao= The Physical Layer
+ao=1
 # Question 'ap': Which layer best fits this statement: Responsible for routing packets among networks
-ap= The NetworkLayer
+ap=3
 # Question 'aq': Which layer best fits this statement: Provides support for common services
-aq= The application Layer
+aq=7
 ## Specify the OSI Layer to which each protocol corresponds
 # Question 'ar': To which layer does this protocol correspond?: 1000BASE-SX
-ar= The physical Layer
+ar=7
 # Question 'as': To which layer does this protocol correspond?: LattisNet
-as= The Data Link Layer
+as=2
 # Question 'at': To which layer does this protocol correspond?: Digital subscriber line (DSL)
-at= The Physical Layer
+at=1
 # Question 'au': To which layer does this protocol correspond?: Authentication Header (AH)
-au= The Internet Layer
+au=7
 # Question 'av': To which layer does this protocol correspond?: Asynchronous Transfer Mode (ATM)
-av= The Data Link Layer
+av=2
 # Question 'aw': To which layer does this protocol correspond?: 9P (protocol) (9P)
-aw= The Application Layer
+aw=7
 # Question 'ax': To which layer does this protocol correspond?: Spanning Tree Protocol (STP)
-ax= The Data Link Layer
+ax=2
 # Question 'ay': To which layer does this protocol correspond?: HTTPS
-ay= The Application Layer
+ay=7
 # Question 'az': To which layer does this protocol correspond?: Internet Control Message Protocol (ICMP)
-az= The Network Layer
+az=3
 # Question 'ba': To which layer does this protocol correspond?: Plan 9 from Bell Labs (Plan 9)
-ba= The Application Layer
+ba=7
 # Question 'bb': To which layer does this protocol correspond?: Network address translation (NAT)
-bb= The Network Layer
+bb=3
 # Question 'bc': To which layer does this protocol correspond?: 100BASE-T
-bc= The Physical Layer
+bc=1
 # Question 'bd': To which layer does this protocol correspond?: Media Access Control (MAC)
-bd= The Data Link Layer
+bd=2
 # Question 'be': To which layer does this protocol correspond?: Apple Filing Protocol (AFP)
-be= The Presentation Layer
+be=6
 # Question 'bf': To which layer does this protocol correspond?: Internet Protocol
-bf= The Network Layer
+bf=3
 # Question 'bg': To which layer does this protocol correspond?: Infrared Data Association (IrDA)
-bg= The Physical Layer
+bg=1
 # Question 'bh': Can applications on nodes 2 and 4 communicate?
 bh= N
 # Question 'bi': If an application on node 2 sends 752 bytes of byte, how large would the PDU be at layer 5?
