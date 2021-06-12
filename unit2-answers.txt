@@ -30,22 +30,22 @@ ao= True
 # Question 'ap': True or false: The read() function for the C programming language is the best choice for reading data from a UDP socket.
 ap= false
 ## Correct the lines in the supplied programme
-aq=
-ar=
-as=
-at=
-au=
-av=
-aw=
-ax=
-ay=
-az=
+aq=5
+ar=11
+as=6
+at=3
+au=8
+av=13
+aw=10
+ax=1
+ay=2
+az=12
 ba=
 bb=
 bc=
 ## Correct the lines in the supplied programme
-bd=
-be=
-bf=
+bd=5
+be=4
+bf=2
 bg=
-bh=
+bh=3
