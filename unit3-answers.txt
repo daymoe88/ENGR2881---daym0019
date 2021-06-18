@@ -112,14 +112,15 @@ switch7:1 node10
 END:bq
 # Question 'br': Define a network that consists of a wireless network and a full mesh network connected by a switch}
 BEGIN:br
-switch0:0 router1
-Router1 router2
-Router1 router3
-Router1 router4
-router2 router3
-router3 router4
-router2 router4
-switch0:1 ap5
+switch0:1 switch1:1
+switch1:2 switch 2:1
+switch1:3 switch3:1
+switch1:4 switch4:1
+switch2:2 switch3:2
+switch2:3 switch4:2
+switch3:3 switch4:3
+switch0:2 router5
+switch0:3 ap5
 ap5 laptop6
 END:br
 # Question 'bs': Define a network that consists of a ad-hoc network and a bus network connected by a router}
@@ -135,12 +136,13 @@ Bus4 switch6
 END:bs
 # Question 'bt': Define a network that consists of a ad-hoc network and a full mesh network connected by a laptop}
 BEGIN:bt
-laptop0 router 0
-router0 router1
-router0 router2
-router1 router2
-router2 router3
-router3 router1
+Laptop0 switch1:1
+switch1:2 switch 2:1
+switch1:3 switch3:1
+switch1:4 switch4:1
+switch2:2 switch3:2
+switch2:3 switch4:2
+switch3:3 switch4:3
 laptop0 latop4
 Laptop4 laptop5
 Laptop5 laptop6
@@ -190,33 +192,93 @@ BEGIN:bx
 Node0 bus1
 Bus1 node2
 Bus1 node3
-node0 switch4
-switch4 node5
-switch4 node6
-switch4 node7
-switch4 node8
-switch4 node9
+node0 switch4:0
+switch4:1 node5
+switch4:2 node6
+switch4:3 node7
+switch4:4 node8
+switch4:5 node9
 END:bx
 # Question 'by': Define a network that consists of a full mesh network and a star network connected by a laptop}
 BEGIN:by
+Laptop0 switch1:0
+Switch1:1 node2
+Switch1:2 node3
+Switch1:3 node4
+Switch1:4 node5
+Switch1:5 node6
+Laptop0 switch7:0
+Switch7:1 node5
+Switch7:2 node6
+Switch7:3 node7
+switch4:4 node8
+switch4:5 node9
 END:by
 # Question 'bz': Define a network that consists of a bus network and a ring network connected by a switch}
 BEGIN:bz
+Switch0:1 bus1
+Bus1 switch2:1
+Switch0:2 node1
+Node1 node2
+Node2 node3
+Node3 node1
 END:bz
 # Question 'ca': Define a network that consists of a tree network and a bus network connected by a router}
 BEGIN:ca
+Router0 bus1
+Bus1 switch2
+Router0 switch3:0
+Switch3:1 switch4:0
+Switch4:1 node5
+Switch3:2 switch6:0
+Switch6:1 node7
 END:ca
 # Question 'cb': Define a network that consists of a ring network and a ring network connected by a bus}
 BEGIN:cb
+Bus0 node1
+Node1 node2
+Node2 node3
+Node3 node1
+Bus0 node4
+Node4 node5
+Node5 node6
+Node6 node4
 END:cb
 # Question 'cc': Define a network that consists of a bus network and a ad-hoc network connected by a node}
 BEGIN:cc
+Node0 laptop1
+Laptop1 laptop2
+Laptop2 laptop3
+Laptop3 laptop4
+Laptop4 laptop1
+Node0 bus4
+Bus4 switch5
+Bus4 switch6
 END:cc
 # Question 'cd': Define a network that consists of a ad-hoc network and a bus network connected by a laptop}
 BEGIN:cd
+Laptop0 laptop1
+Laptop1 laptop2
+Laptop2 laptop3
+Laptop3 laptop4
+Laptop4 laptop1
+laptop0 bus4
+Bus4 switch5
+Bus4 switch6
 END:cd
 # Question 'ce': Define a network that consists of a star network and a tree network connected by a laptop}
 BEGIN:ce
+laptop0 switch1:0
+switch1:1 node2
+switch1:2 node3
+switch1:3 node4
+switch1:4 node5
+switch1:5 node6
+laptop0 router6
+router6 router7:0
+router7:1 router8:1
+router7:2 router9:1
+router7:3 router10:1
 END:ce
 # Question 'cf': Define a network that consists of a star network and a bus network connected by a laptop}
 BEGIN:cf
@@ -244,24 +306,24 @@ BEGIN:cm
 END:cm
 ## Write statements that are true or false for various lecture slides.
 # Question 'cn': Do you grant your following quiz questions to the public domain?
-cn=
+cn=true
 # Question 'co': Write a true statement about the content of Slide 48 of Chapter 2
-co=
+co= the CRC Divides the bit string corresponding to xrM(x) by the bit string corresponding to C(x) using modulo 2 division.
 # Question 'cp': Write a false statement about the content of Slide 112 of Chapter 3
-cp=
+cp= the LSP does not arrive at node X
 # Question 'cq': Write a false statement about the content of Slide 84 of Chapter 2
-cq=
+cq= ethernet Repeaters send a multicast signal on all outgoing segments
 # Question 'cr': Write a false statement about the content of Slide 131 of Chapter 2
-cr=
+cr= The technique for selecting an AP is called search
 # Question 'cs': Write a false statement about the content of Slide 38 of Chapter 1
-cs=
+cs= Once a connection is disconnected, the application process invokes two operations
 # Question 'ct': Write a false statement about the content of Slide 141 of Chapter 2
-ct=
+ct= Access Networks are evolving slower than core
 # Question 'cu': Write a true statement about the content of Slide 9 of Chapter 2
-cu=
+cu= Placing binary data on a signal is called encoding.
 # Question 'cv': Write a false statement about the content of Slide 52 of Chapter 2
-cv=
+cv= there are seven generator polynomials that have become international standards
 # Question 'cw': Write a true statement about the content of Slide 7 of Chapter 4
-cw=
+cw= the internet is organized as autonomous systems (AS) each of which is under the control of a single administrative entity
 # Question 'cx': Write a true statement about the content of Slide 1 of Chapter 1
-cx=
+cx=chapter 1 is called introduction
