@@ -109,7 +109,6 @@ router6 node7
 router6 node8
 router5 switch7:0
 switch7:1 node10
-
 END:bq
 # Question 'br': Define a network that consists of a wireless network and a full mesh network connected by a switch}
 BEGIN:br
@@ -133,7 +132,6 @@ Laptop4 laptop1
 Router0 bus4
 Bus4 switch5
 Bus4 switch6
-
 END:bs
 # Question 'bt': Define a network that consists of a ad-hoc network and a full mesh network connected by a laptop}
 BEGIN:bt
@@ -201,7 +199,6 @@ switch4 node9
 END:bx
 # Question 'by': Define a network that consists of a full mesh network and a star network connected by a laptop}
 BEGIN:by
-
 END:by
 # Question 'bz': Define a network that consists of a bus network and a ring network connected by a switch}
 BEGIN:bz
