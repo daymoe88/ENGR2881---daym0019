@@ -4,7 +4,7 @@ ab=4
 # Question 'ac': Which layer best fits this statement: Corrects the order of received packets, if they are received out of order
 ac=3
 # Question 'ad': Which layer best fits this statement: Interprets the address in the header to determine which receiver on a local network segment should receive it.
-ad=3
+ad= 3
 # Question 'ae': Which layer best fits this statement: Is used to abstract the network for user-oriented programmes
 ae=7
 # Question 'af': Which layer best fits this statement: Detects and reacts to congestion on network path between distant nodes
@@ -12,17 +12,18 @@ af=3
 # Question 'ag': Which layer best fits this statement: Responsible for the forwarding or messages or packets
 ag= 3
 # Question 'ah': Which layer best fits this statement: Responsible for electromagnetic compatibility
-ah=1
+ah= 1
 # Question 'ai': Which layer best fits this statement: Responsible for electromagnetic spectrum allocation
-ai=1
+ai= 1
 # Question 'aj': Which layer best fits this statement: De-duplicates received packets
-aj=3
+aj= 3
 # Question 'ak': Which layer best fits this statement: Provides globally addressable identifiers for nodes on large networks
-ak=3
+ak= 3
 # Question 'al': Which layer best fits this statement: The layer where virtual circuits can be established
-al=4
+al= 4
 # Question 'am': Which layer best fits this statement: Facilitates connection-oriented communications
-am=4
+am= 4
+
 # Question 'an': Which layer best fits this statement: Responsible for human-computer interaction
 an=7
 # Question 'ao': Which layer best fits this statement: Provides galvanic isolation between nodes on a network
@@ -146,15 +147,15 @@ ct= 8949
 cu= 165
 ## Name and describe five reliability challenges for computer networks, referring to the network layers at which these challenges either arise, or are solved.
 # Question 'cv': Reliability Challenge #0
-cv=
+cv= hardware the cost of buying, running, maintaining and upgrading to fast and reliable networks can be a big challenge for companies. Cost is associated with the physical layers of the network.
 # Question 'cw': Reliability Challenge #1
-cw=
+cw=network performance. On the network layer, Network performance can degrade the further the source is away from the endpoint. This can result in data loss and slow network speeds. The problems can be from faulty or old hardware, out of date software, end points to far from access points and routers, network congestion and bandwidth spikes, and security breaches. They can be solved by updating software in routers and switches, resetting end points and routers, turning off firewalls, installing antivirus software and by creating vlans to prioritise network traffic.
 # Question 'cx': Reliability Challenge #2
-cx=
+cx=configuration management. In large networks configuration of ip addresses and settings can be difficult to manage. this can be because of a limited number of ip addresses, duplicate ip addresses and preventing network outages. This is in the internet layer on the osi model. 
 # Question 'cy': Reliability Challenge #3
-cy=
+cy=security	
 # Question 'cz': Reliability Challenge #4
-cz=
+cz= network growth
 # Question 'da': Reliable delivery of streaming video 
 BEGIN:da
 END:da
