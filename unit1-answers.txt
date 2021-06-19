@@ -23,7 +23,6 @@ ak= 3
 al= 4
 # Question 'am': Which layer best fits this statement: Facilitates connection-oriented communications
 am= 4
-
 # Question 'an': Which layer best fits this statement: Responsible for human-computer interaction
 an=7
 # Question 'ao': Which layer best fits this statement: Provides galvanic isolation between nodes on a network
@@ -147,15 +146,15 @@ ct= 8949
 cu= 165
 ## Name and describe five reliability challenges for computer networks, referring to the network layers at which these challenges either arise, or are solved.
 # Question 'cv': Reliability Challenge #0
-cv= hardware the cost of buying, running, maintaining and upgrading to fast and reliable networks can be a big challenge for companies. Cost is associated with the physical layers of the network.
+cv= outdated and low-quality infrastructure. software and hardware that is poor quality or older than 5 to 10 years may not be able to handle high workloads or run software properly. This can cause issues like network congestion, program bugs and security breaches. The cost of buying or upgrading quality equipment can influence companies to choose the wrong type of equipment, which can make it difficult to upgrade to a fast and reliable network. Network Infrastructure is associated with the physical osi layer of the network.
 # Question 'cw': Reliability Challenge #1
-cw=network performance. On the network layer, Network performance can degrade the further the source is away from the endpoint. This can result in data loss and slow network speeds. The problems can be from faulty or old hardware, out of date software, end points to far from access points and routers, network congestion and bandwidth spikes, and security breaches. They can be solved by updating software in routers and switches, resetting end points and routers, turning off firewalls, installing antivirus software and by creating vlans to prioritise network traffic.
+cw= Network performance. Network performance is on the network osi layer. Network performance can degrade the further the source is away from the endpoint, can become congested if there are to many users and not enough bandwidth. This can result in data loss and slow network speeds. The problems can be from faulty, low-quality or old hardware, out of date software, end points to far from access points and routers, network congestion and bandwidth spikes, and security breaches. They can be solved by updating equipment and software, resetting end points and routers, turning off firewalls, installing antivirus software, buying equipment suitable for the company and by creating vlans to separate workloads and prioritise network traffic.
 # Question 'cx': Reliability Challenge #2
-cx=configuration management. In large networks configuration of ip addresses and settings can be difficult to manage. this can be because of a limited number of ip addresses, duplicate ip addresses and preventing network outages. This is in the internet layer on the osi model. 
+cx=network configuration and management. Network configuration and management in growing networks can be difficult to manage. problems can occur because as the network grows it can be harder to keep settings up to date, there is a limited network capacity or resources which can lead to systems conflicting with each other, and the network can become congested from users and bandwidth spikes. Network configuration is on the TCP/IP internet layer on the osi model. 
 # Question 'cy': Reliability Challenge #3
-cy=security	
+cy=network security. network security issues such as data loss, security breaches and malicious attacks are common reliability issues in networks. Network security issues happen on multiple levels of the osi model. For example, the physical layer is subject to power failures and damage which can result in data loss, and routers with older software are susceptible to hacking on the network osi layer.
 # Question 'cz': Reliability Challenge #4
-cz= network growth
+cz= network capacity. Network capacity is the amount of traffic a network can handle. A network reaches its capacity when the are to many end devices connected to a router or switch and when all the bandwidth is being used. For example, downloading large files or playing video games online can take up a lot of bandwidth. Network capacity is on the data-link layer.
 # Question 'da': Reliable delivery of streaming video 
 BEGIN:da
 END:da
