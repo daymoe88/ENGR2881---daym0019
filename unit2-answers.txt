@@ -1,51 +1,163 @@
-## Socket Programming General True or False Statements
-# Question 'ab': True or false: The send() function for the C programming language performs the same function as write(), but without the possibility to set flags.
-ab= True
-# Question 'ac': True or false: A network socket usually contains addressing information for layer 3, but not layer 4
-ac= false
-# Question 'ad': True or false: The send() function for the C programming language can be used to write data to a connection-oriented socket.
-ad=false
-# Question 'ae': True or false: The send() function for the C programming language allows setting the destination address when writing to connection-less sockets.
-ae= false
-# Question 'af': True or false: The connect() function for the C programming language normally requires the network address, but not any layer 4 address of the target.
-af= false
-# Question 'ag': True or false: The send() function for the C programming language can be used to write out-of-band data to a socket.
-ag= false
-# Question 'ah': True or false: The bind() function for the C programming language creates a network socket and binds it to a network address
-ah= false
-# Question 'ai': True or false: The accept() function for the C programming language checks for newly received socket connections.
-ai= True
-# Question 'aj': True or false: The socket() function for the C programming language requires a network address, to be able to create a socket.
-aj= false
-# Question 'ak': True or false: The listen() function for the C programming language causes a socket to actively connect via the network to listen for applications that require it.
-ak= false
-# Question 'al': True or false: The close() function for the C programming language closes a server's socket and all open connections created by that socket.
-al= false
-# Question 'am': True or false: The recv() function for the C programming language can only be used to read from UDP sockets
-am= True
-# Question 'an': True or false: The accept() function for the C programming language accepts all waiting network sockets each time it is called.
-an= false
-# Question 'ao': True or false: The read() function for the C programming language can be used to receive data from sockets.
-ao= True
-# Question 'ap': True or false: The read() function for the C programming language is the best choice for reading data from a UDP socket.
-ap= false
-## Correct the lines in the supplied programme
-aq=5
-ar=11
-as=6
-at=3
-au=8
-av=13
-aw=10
-ax=1
-ay=2
-az=12
-ba=
-bb=
-bc=
-## Correct the lines in the supplied programme
-bd=5
-be=4
-bf=2
-bg=
-bh=3
+## Specify the OSI Layer to which best matches each statement
+# Question 'ab': Which layer best fits this statement: Responsible for flow-control in a network
+ab=4
+# Question 'ac': Which layer best fits this statement: Corrects the order of received packets, if they are received out of order
+ac=3
+# Question 'ad': Which layer best fits this statement: Interprets the address in the header to determine which receiver on a local network segment should receive it.
+ad= 3
+# Question 'ae': Which layer best fits this statement: Is used to abstract the network for user-oriented programmes
+ae=7
+# Question 'af': Which layer best fits this statement: Detects and reacts to congestion on network path between distant nodes
+af=3
+# Question 'ag': Which layer best fits this statement: Responsible for the forwarding or messages or packets
+ag= 3
+# Question 'ah': Which layer best fits this statement: Responsible for electromagnetic compatibility
+ah= 1
+# Question 'ai': Which layer best fits this statement: Responsible for electromagnetic spectrum allocation
+ai= 1
+# Question 'aj': Which layer best fits this statement: De-duplicates received packets
+aj= 3
+# Question 'ak': Which layer best fits this statement: Provides globally addressable identifiers for nodes on large networks
+ak= 3
+# Question 'al': Which layer best fits this statement: The layer where virtual circuits can be established
+al= 4
+# Question 'am': Which layer best fits this statement: Facilitates connection-oriented communications
+am= 4
+# Question 'an': Which layer best fits this statement: Responsible for human-computer interaction
+an=7
+# Question 'ao': Which layer best fits this statement: Provides galvanic isolation between nodes on a network
+ao=1
+# Question 'ap': Which layer best fits this statement: Responsible for routing packets among networks
+ap=3
+# Question 'aq': Which layer best fits this statement: Provides support for common services
+aq=7
+## Specify the OSI Layer to which each protocol corresponds
+# Question 'ar': To which layer does this protocol correspond?: 1000BASE-SX
+ar=7
+# Question 'as': To which layer does this protocol correspond?: LattisNet
+as=2
+# Question 'at': To which layer does this protocol correspond?: Digital subscriber line (DSL)
+at=1
+# Question 'au': To which layer does this protocol correspond?: Authentication Header (AH)
+au=7
+# Question 'av': To which layer does this protocol correspond?: Asynchronous Transfer Mode (ATM)
+av=2
+# Question 'aw': To which layer does this protocol correspond?: 9P (protocol) (9P)
+aw=7
+# Question 'ax': To which layer does this protocol correspond?: Spanning Tree Protocol (STP)
+ax=2
+# Question 'ay': To which layer does this protocol correspond?: HTTPS
+ay=7
+# Question 'az': To which layer does this protocol correspond?: Internet Control Message Protocol (ICMP)
+az=3
+# Question 'ba': To which layer does this protocol correspond?: Plan 9 from Bell Labs (Plan 9)
+ba=7
+# Question 'bb': To which layer does this protocol correspond?: Network address translation (NAT)
+bb=3
+# Question 'bc': To which layer does this protocol correspond?: 100BASE-T
+bc=1
+# Question 'bd': To which layer does this protocol correspond?: Media Access Control (MAC)
+bd=2
+# Question 'be': To which layer does this protocol correspond?: Apple Filing Protocol (AFP)
+be=6
+# Question 'bf': To which layer does this protocol correspond?: Internet Protocol
+bf=3
+# Question 'bg': To which layer does this protocol correspond?: Infrared Data Association (IrDA)
+bg=1
+# Question 'bh': Can applications on nodes 2 and 4 communicate?
+bh= N
+# Question 'bi': If an application on node 2 sends 752 bytes of byte, how large would the PDU be at layer 5?
+bi= 43
+# Question 'bj': Without regard for networking stacks, what is the data rate that is possible between nodes 2 and 4? {\em Provide the exact number of kilo-bits per second as your answer.} 
+bj= 2257
+# Question 'bk': How many milli-seconds would it take node 2 to send 7241 bytes of data to node 4? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+bk= 1089
+# Question 'bl': Can applications on nodes 5 and 1 communicate?
+bl= n
+# Question 'bm': If an application on node 4 sends 11 bytes of byte, how large would the PDU be at layer 3?
+bm= 51
+# Question 'bn': Without regard for networking stacks, what is the data rate that is possible between nodes 4 and 1? {\em Provide the exact number of kilo-bits per second as your answer.} 
+bn= 2878
+# Question 'bo': How many milli-seconds would it take node 4 to send 4405 bytes of data to node 1? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+bo= 397
+# Question 'bp': Can applications on nodes 2 and 4 communicate?
+bp= n
+# Question 'bq': If an application on node 2 sends 135 bytes of byte, how large would the PDU be at layer 2?
+bq= 62
+# Question 'br': Without regard for networking stacks, what is the data rate that is possible between nodes 2 and 4? {\em Provide the exact number of kilo-bits per second as your answer.} 
+br= 4979
+# Question 'bs': How many milli-seconds would it take node 2 to send 7468 bytes of data to node 4? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+bs= 12
+# Question 'bt': Can applications on nodes 5 and 4 communicate?
+bt= y
+# Question 'bu': If an application on node 3 sends 263 bytes of byte, how large would the PDU be at layer 5?
+bu= 28
+# Question 'bv': Without regard for networking stacks, what is the data rate that is possible between nodes 3 and 4? {\em Provide the exact number of kilo-bits per second as your answer.} 
+bv= 2898
+# Question 'bw': How many milli-seconds would it take node 3 to send 4090 bytes of data to node 4? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+bw= 11
+# Question 'bx': Can applications on nodes 1 and 2 communicate?
+bx= n
+# Question 'by': If an application on node 2 sends 27 bytes of byte, how large would the PDU be at layer 5?
+by= 92
+# Question 'bz': Without regard for networking stacks, what is the data rate that is possible between nodes 2 and 2? {\em Provide the exact number of kilo-bits per second as your answer.} 
+bz= 4794
+# Question 'ca': How many milli-seconds would it take node 2 to send 1461 bytes of data to node 2? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+ca= 2
+# Question 'cb': Can applications on nodes 0 and 5 communicate?
+cb= y
+# Question 'cc': If an application on node 4 sends 415 bytes of byte, how large would the PDU be at layer 3?
+cc= 55
+# Question 'cd': Without regard for networking stacks, what is the data rate that is possible between nodes 4 and 5? {\em Provide the exact number of kilo-bits per second as your answer.} 
+cd= 5893
+# Question 'ce': How many milli-seconds would it take node 4 to send 8195 bytes of data to node 5? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+ce= 11
+# Question 'cf': Can applications on nodes 4 and 2 communicate?
+cf= y
+# Question 'cg': If an application on node 4 sends 662 bytes of byte, how large would the PDU be at layer 3?
+cg= 55
+# Question 'ch': Without regard for networking stacks, what is the data rate that is possible between nodes 4 and 2? {\em Provide the exact number of kilo-bits per second as your answer.} 
+ch= 4750
+# Question 'ci': How many milli-seconds would it take node 4 to send 6897 bytes of data to node 2? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+ci= 12
+# Question 'cj': Can applications on nodes 1 and 3 communicate?
+cj= y
+# Question 'ck': If an application on node 4 sends 109 bytes of byte, how large would the PDU be at layer 4?
+ck= 34
+# Question 'cl': Without regard for networking stacks, what is the data rate that is possible between nodes 4 and 3? {\em Provide the exact number of kilo-bits per second as your answer.} 
+cl= 1958
+# Question 'cm': How many milli-seconds would it take node 4 to send 8728 bytes of data to node 3? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+cm= 285
+# Question 'cn': Can applications on nodes 4 and 5 communicate?
+cn= y
+# Question 'co': If an application on node 5 sends 240 bytes of byte, how large would the PDU be at layer 7?
+co= 85
+# Question 'cp': Without regard for networking stacks, what is the data rate that is possible between nodes 5 and 5? {\em Provide the exact number of kilo-bits per second as your answer.} 
+cp= 1851
+# Question 'cq': How many milli-seconds would it take node 5 to send 5601 bytes of data to node 5? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+cq= 24
+# Question 'cr': Can applications on nodes 2 and 3 communicate?
+cr= n
+# Question 'cs': If an application on node 2 sends 562 bytes of byte, how large would the PDU be at layer 6?
+cs= 69
+# Question 'ct': Without regard for networking stacks, what is the data rate that is possible between nodes 2 and 3? {\em Provide the exact number of kilo-bits per second as your answer.} 
+ct= 8949
+# Question 'cu': How many milli-seconds would it take node 2 to send 185 bytes of data to node 3? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
+cu= 165
+## Name and describe five reliability challenges for computer networks, referring to the network layers at which these challenges either arise, or are solved.
+# Question 'cv': Reliability Challenge #0
+cv= outdated and low-quality infrastructure. software and hardware that is poor quality or older than 5 years may not be able to handle high workloads or run software properly. This causes issues like network congestion, program bugs and security breaches. The cost of buying or upgrading quality equipment can influence companies to choose the wrong type of equipment, which can make it difficult to upgrade to a fast and reliable network. Network Infrastructure is on physical osi layer of the network.
+# Question 'cw': Reliability Challenge #1
+cw= Network performance. Network performance is on the network osi layer. Network performance can degrade the further the source is away from the endpoint, can become congested if there are to many users and not enough bandwidth. This can result in data loss and slow network speeds. The problems can be from faulty, low-quality or old hardware, out of date software, end points to far from access points and routers, network congestion and bandwidth spikes, and security breaches. 
+# Question 'cx': Reliability Challenge #2
+cx=network configuration and management. Network configuration and management in growing networks can be difficult to manage. problems can occur because as the network grows it can be harder to keep settings up to date, there is a limited network capacity or resources which can lead to systems conflicting with each other, and the network can become congested from users and bandwidth spikes. Network configuration is on the TCP/IP internet layer on the osi model. 
+# Question 'cy': Reliability Challenge #3
+cy=network security. network security issues such as data loss, security breaches and malicious attacks are common reliability issues in networks. Network security issues happen on multiple levels of the osi model. For example, the physical layer is subject to power failures and damage which can result in data loss, and routers with older software are susceptible to hacking on the network osi layer.
+# Question 'cz': Reliability Challenge #4
+cz= network capacity. Network capacity is the amount of traffic a network can handle. A network reaches its capacity when the are to many end devices connected to a router or switch and when all the bandwidth is being used. For example, downloading large files or playing video games online can take up a lot of bandwidth. Network capacity is on the data-link layer.
+# Question 'da': Reliable delivery of streaming video 
+BEGIN:da
+END:da
+# Question 'db': Describe how a layered network approach can be used to increase the security of a network, without having to change the applications that use the network. If a network was not built using a layered approach, how might security need to be fitted to such a network, if it were required? What would the impacts be? 
+BEGIN:db
+END:db
