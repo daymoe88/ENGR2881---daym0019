@@ -1,9 +1,11 @@
 ## Demonstrate an understanding of current methods for secure information transfer}
 # Question 'ab': Write not more than 250 words about 'cryptographic algorithm vulnerabilities (eg those faced by RC4)'
 BEGIN:ab
+Cryptographic algorithms are mathematical techniques that are used to protect important information in a network. The encryption algorithm encrypts and decrypts the information mathematically based on a secret key algorithm. This key must be kept secret, or the information could be compromised by anyone who knows it.  Rc4 is a cipher algorithm that implements a pseudo-random generator in software that uses SSL protocols. It has been declared a medium risk vulnerability by experts because it does not combine state data with key data during the initialisation phase of encryption properly. The issues emerged in the 1990’s and are difficult to detect, resolve and are often overlooked.  Hackers can use non-targeted passive attacks to exploit vulnerabilities by sniffing out SSL connections with rc4 encryption for weak key invariances to predict keystream LSB’s. They then use plain-text attacks against the first 100 bytes of data. The compromised date is then used in brutal attacks to recover sensitive information like credit cards and passwords.
 END:ab
 # Question 'ac': Write not more than 250 words about 'digital signatures'
 BEGIN:ac
+
 END:ac
 ## Demonstrate an understanding of emerging methods for secure information transfer}
 # Question 'ad': Write not more than 250 words about any of the items on the timeline at https://www.feistyduck.com/ssl-tls-and-pki-history/
