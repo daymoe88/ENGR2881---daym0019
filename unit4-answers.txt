@@ -5,7 +5,7 @@ Cryptographic algorithms are mathematical techniques that are used to protect im
 END:ab
 # Question 'ac': Write not more than 250 words about 'digital signatures'
 BEGIN:ac
-
+Digital signatures are a type of electronic signature that use a mathematical scheme to validate a messages authenticity and integrity. Digital signatures are important because they create a unique digital identity to identify users and protect their data when being sent and received; they improve document management . Digital signatures are considered secure because they work using public infrastructure key pair system that encrypts and decrypts data for the signer and receiver; parties must have a registered digital certificate from an issuing certificate authority; it ensures the security, accuracy, and authenticity of data. Digital signatures work by using a mathematical algorithm that generates public and private keys. The signer has control over the private key which is then used to encrypt data. Once received the receiver uses the public key to decrypt data. The benefits of using digital signatures are that they save time for companies, reduce costs, improve document workflow efficiency, are secure, have legal validity in some countries, and reduce the environmental impact paper traditionally would have.
 END:ac
 ## Demonstrate an understanding of emerging methods for secure information transfer}
 # Question 'ad': Write not more than 250 words about any of the items on the timeline at https://www.feistyduck.com/ssl-tls-and-pki-history/
