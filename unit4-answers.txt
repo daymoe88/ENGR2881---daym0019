@@ -14,15 +14,15 @@ HTTP Strict Transport Security or HSTS is a transport layer mechanism that is de
 END:ad
 ## Write statements that are true or false for various lecture slides.
 ## Write statements that are true or false for various lecture slides.
-ae=
+ae=n
 # Question 'af': Write a false statement about the content of Slide 30 of Chapter 2
-af=
+af= HDLC is Byte oriented protocol that has starts sequences and ends sequences ending with 1’s
 # Question 'ag': Write a true statement about the content of Slide 130 of Chapter 2
-ag=
+ag=if node a on AP-1 wants to communicate with node e on AP-3, then the distribution system is responsible for forwarding the frames to that node.
 # Question 'ah': Write a false statement about the content of Slide 19 of Chapter 3
-ah=
+ah=the connection setup only needs to establish one “connection state” in the central switch between the source and hosts destinations.
 # Question 'ai': Write a false statement about the content of Slide 71 of Chapter 3
-ai=
+ai=if the first bit of a global address is a 1 then it is a type ‘a’ global address
 # Question 'aj': Write a true statement about the content of Slide 42 of Chapter 4
 aj=
 # Question 'ak': Write a false statement about the content of Slide 102 of Chapter 3
