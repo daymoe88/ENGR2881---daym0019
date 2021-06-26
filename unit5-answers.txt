@@ -18,7 +18,7 @@ ab=
 ac=
 # Question 'ad': For the supplied packet: IP Don't Frag
 #        Format: Boolean: Answer Y or N
-ad=
+ad=y
 # Question 'ae': For the supplied packet: UDP source port
 #        Format: Integer: Answer with the decimal value of the field.
 ae=
@@ -49,13 +49,13 @@ ai=
 aj=
 # Question 'ak': For the supplied packet: ARP request
 #        Format: Boolean: Answer Y or N
-ak=
+ak=n
 # Question 'al': For the supplied packet: Frame is 802.1q
 #        Format: Boolean: Answer Y or N
-al=
+al=y
 # Question 'am': For the supplied packet: Frame is 802.1ad
 #        Format: Boolean: Answer Y or N
-am=
+am=y
 # Packet dump:
 #	0x0000:  8b83 ab23 02fa d46f b8f9 2d81 8847 0000  ...#...o..-..G..
 #	0x0010:  0fb6 4500 0051 0000 4000 2306 0000 47c7  ..E..Q..@.#...G.
@@ -66,19 +66,19 @@ am=
 #	0x0060:  b1bd 5b                                  ..[
 # Question 'an': For the supplied packet: MPLS last label?
 #        Format: Boolean: Answer Y or N
-an=
+an=y
 # Question 'ao': For the supplied packet: IP TTL
 #        Format: Integer: Answer with the decimal value of the field.
-ao=
+ao=n
 # Question 'ap': For the supplied packet: IP More Fragments
 #        Format: Boolean: Answer Y or N
-ap=
+ap=y
 # Question 'aq': For the supplied packet: IP ToS
 #        Format: Integer: Answer with the decimal value of the field.
 aq=
 # Question 'ar': For the supplied packet: TCP ACK
 #        Format: Boolean: Answer Y or N
-ar=
+ar=n
 # Question 'as': For the supplied packet: ETH frame type
 #        Format: Four-digit Hex: Answer with the four digit hexadecimal value of the field, e.g., 02AF. Do not put a leading 0x or \$ on the front of the hexadecimal number.
 as=
@@ -102,13 +102,13 @@ at=
 au=
 # Question 'av': For the supplied packet: IP More Fragments
 #        Format: Boolean: Answer Y or N
-av=
+av=n
 # Question 'aw': For the supplied packet: TCP URG
 #        Format: Boolean: Answer Y or N
-aw=
+aw=y
 # Question 'ax': For the supplied packet: TCP FIN
 #        Format: Boolean: Answer Y or N
-ax=
+ax=n
 # Question 'ay': For the supplied packet: ETH destination address
 #        Format: Ethernet MAC Address. Answer in the customary format, retaining leading zeroes, e.g., 02:ca:fe:f0:0d:00
 ay=
@@ -126,7 +126,7 @@ ay=
 az=
 # Question 'ba': For the supplied packet: Frame is 802.1ad
 #        Format: Boolean: Answer Y or N
-ba=
+ba=y
 # Question 'bb': For the supplied packet: IP TTL
 #        Format: Integer: Answer with the decimal value of the field.
 bb=
@@ -152,13 +152,13 @@ be=
 bf=
 # Question 'bg': For the supplied packet: Frame is MPLS
 #        Format: Boolean: Answer Y or N
-bg=
+bg=y
 # Question 'bh': For the supplied packet: Frame is 802.1ad
 #        Format: Boolean: Answer Y or N
-bh=
+bh=n
 # Question 'bi': For the supplied packet: ARP reply
 #        Format: Boolean: Answer Y or N
-bi=
+bi=y
 # Question 'bj': For the supplied packet: ETH frame type
 #        Format: Four-digit Hex: Answer with the four digit hexadecimal value of the field, e.g., 02AF. Do not put a leading 0x or \$ on the front of the hexadecimal number.
 bj=
@@ -194,7 +194,7 @@ bo=
 bp=
 # Question 'bq': For the supplied packet: ARP request
 #        Format: Boolean: Answer Y or N
-bq=
+bq=y
 # Packet dump:
 #	0x0000:  4077 a88b 8ccb 8225 c520 ce9a 8848 0000  @w.....%.....H..
 #	0x0010:  45f5 4500 006f 0000 4000 1a06 0000 8cc9  E.E..o..@.......
@@ -210,13 +210,13 @@ bq=
 br=
 # Question 'bs': For the supplied packet: Frame is 802.1q
 #        Format: Boolean: Answer Y or N
-bs=
+bs=y
 # Question 'bt': For the supplied packet: Frame is MPLS
 #        Format: Boolean: Answer Y or N
-bt=
+bt=n
 # Question 'bu': For the supplied packet: Frame is 802.1ad
 #        Format: Boolean: Answer Y or N
-bu=
+bu=y
 # Question 'bv': For the supplied packet: MPLS label
 #        Format: Integer: Answer with the decimal value of the field.
 bv=
@@ -238,7 +238,7 @@ bx=
 by=
 # Question 'bz': For the supplied packet: ARP reply
 #        Format: Boolean: Answer Y or N
-bz=
+bz=y
 # Question 'ca': For the supplied packet: ARP source MAC
 #        Format: Ethernet MAC Address. Answer in the customary format, retaining leading zeroes, e.g., 02:ca:fe:f0:0d:00
 ca=
@@ -261,13 +261,13 @@ cc=
 #	0x0090:  ec69 3527 6d3d 6b                        .i5'm=k
 # Question 'cd': For the supplied packet: IP Don't Frag
 #        Format: Boolean: Answer Y or N
-cd=
+cd=n
 # Question 'ce': For the supplied packet: UDP source port
 #        Format: Integer: Answer with the decimal value of the field.
 ce=
 # Question 'cf': For the supplied packet: Frame is 802.1q
 #        Format: Boolean: Answer Y or N
-cf=
+cf=y
 # Question 'cg': For the supplied packet: IP TTL
 #        Format: Integer: Answer with the decimal value of the field.
 cg=
@@ -295,16 +295,16 @@ cj=
 ck=
 # Question 'cl': For the supplied packet: Frame is 802.1ad
 #        Format: Boolean: Answer Y or N
-cl=
+cl=y
 # Question 'cm': For the supplied packet: TCP PSH
 #        Format: Boolean: Answer Y or N
-cm=
+cm=n
 # Question 'cn': For the supplied packet: IP ToS
 #        Format: Integer: Answer with the decimal value of the field.
 cn=
 # Question 'co': For the supplied packet: IP Don't Frag
 #        Format: Boolean: Answer Y or N
-co=
+co=y
 # Packet dump:
 #	0x0000:  8b84 221b ceba 42a2 e7af e4f6 8100 08f2  .."...B.........
 #	0x0010:  0800 4500 005e 0000 4000 1011 0000 76b7  ..E..^..@.....v.
@@ -344,13 +344,13 @@ cu=
 #	0x0090:  f273 c1                                  .s.
 # Question 'cv': For the supplied packet: Frame is 802.1q
 #        Format: Boolean: Answer Y or N
-cv=
+cv=y
 # Question 'cw': For the supplied packet: TCP ACK
 #        Format: Boolean: Answer Y or N
-cw=
+cw=n
 # Question 'cx': For the supplied packet: TCP CWR
 #        Format: Boolean: Answer Y or N
-cx=
+cx=n
 # Question 'cy': For the supplied packet: IP length
 #        Format: Integer: Answer with the decimal value of the field.
 cy=
@@ -377,7 +377,7 @@ db=
 dc=
 # Question 'dd': For the supplied packet: Frame is MPLS
 #        Format: Boolean: Answer Y or N
-dd=
+dd=n
 # Question 'de': For the supplied packet: ARP source IP
 #        Format: IPv4 address. Answer in dotted quad notation, e.g., 129.96.1.21
 de=
@@ -386,7 +386,7 @@ de=
 df=
 # Question 'dg': For the supplied packet: Frame is 802.1q
 #        Format: Boolean: Answer Y or N
-dg=
+dg=n
 # Packet dump:
 #	0x0000:  0838 cb16 766c 57e5 fa17 48e8 8100 16d9  .8..vlW...H.....
 #	0x0010:  0800 4500 004c 0000 4000 2d06 0000 282c  ..E..L..@.-...(,
@@ -399,7 +399,7 @@ dg=
 dh=
 # Question 'di': For the supplied packet: TCP URG
 #        Format: Boolean: Answer Y or N
-di=
+di=y
 # Question 'dj': For the supplied packet: ETH destination address
 #        Format: Ethernet MAC Address. Answer in the customary format, retaining leading zeroes, e.g., 02:ca:fe:f0:0d:00
 dj=
@@ -408,29 +408,29 @@ dj=
 dk=
 # Question 'dl': For the supplied packet: Frame is 802.1ad
 #        Format: Boolean: Answer Y or N
-dl=
+dl=n
 # Question 'dm': For the supplied packet: ETH source address
 #        Format: Ethernet MAC Address. Answer in the customary format, retaining leading zeroes, e.g., 02:ca:fe:f0:0d:00
 dm=
 ## Write statements that are true or false for various lecture slides.
 dn=
 # Question 'do': Write a false statement about the content of Slide 50 of Chapter 8
-do=
+do=The Diffie-Hellman protocol has two parameters, p and i, both of which are private
 # Question 'dp': Write a true statement about the content of Slide 118 of Chapter 3
-dp=
+dp=Routers and switches are often implemented using specialized hardware.
 # Question 'dq': Write a true statement about the content of Slide 28 of Chapter 2
-dq=
+dq=if the count gets corrupted then a framing error occurs.
 # Question 'dr': Write a false statement about the content of Slide 67 of Chapter 8
-dr=
+dr= 802.11i does not need to be secured by authentication servers
 # Question 'ds': Write a true statement about the content of Slide 63 of Chapter 8
-ds=
+ds= IP security supports a tunnel and transport mode.
 # Question 'dt': Write a true statement about the content of Slide 6 of Chapter 5
-dt=
+dt= some typical limitations of networks that use transport protocols are: dropping messages, re-order messages and Deliver duplicate copies of a given message
 # Question 'du': Write a false statement about the content of Slide 46 of Chapter 4
-du=
+du= cloud services are more expensive than physical data storage.
 # Question 'dv': Write a false statement about the content of Slide 17 of Chapter 2
-dv=
+dv=In Manchester the byte rate is 2 times the baud rate
 # Question 'dw': Write a true statement about the content of Slide 111 of Chapter 3
-dw=
+dw=link state routing only sends information to nodes about connections that are directly connected
 # Question 'dx': Write a false statement about the content of Slide 94 of Chapter 6
-dx=
+dx=applications that can delay their playback point are called delay applications.
