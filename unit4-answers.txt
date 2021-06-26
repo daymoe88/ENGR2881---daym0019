@@ -24,14 +24,14 @@ ah=the connection setup only needs to establish one “connection state” in th
 # Question 'ai': Write a false statement about the content of Slide 71 of Chapter 3
 ai=if the first bit of a global address is a 1 then it is a type ‘a’ global address
 # Question 'aj': Write a true statement about the content of Slide 42 of Chapter 4
-aj=
+aj= multi-protocol label switching brings 2 main capabilities to ip: traffic engineering and vpns.
 # Question 'ak': Write a false statement about the content of Slide 102 of Chapter 3
-ak=
+ak= node a knows how to get to get to e, d and g
 # Question 'al': Write a false statement about the content of Slide 7 of Chapter 1
-al=
+al= video conferencing is a low priority network qos
 # Question 'am': Write a false statement about the content of Slide 40 of Chapter 1
-am=
+am=the code in this slide is an example of a server
 # Question 'an': Write a true statement about the content of Slide 29 of Chapter 4
-an=
+an= online video conferencing and video games are examples of many to many use cases
 # Question 'ao': Write a false statement about the content of Slide 66 of Chapter 3
-ao=
+ao= a network packet is a formatted unit of data carried by a packet-switched network
