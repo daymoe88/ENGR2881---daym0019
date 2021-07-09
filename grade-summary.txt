@@ -5,6 +5,6 @@ NOTE: This result is still provision, and subject to change and scaling.
 WORK UNITS: CR
    QUIZZES: P
 
-     TOTAL: P
+     TOTAL: CR
 
 If you believe that any part is incorrect or missing, please contact me promptly.
