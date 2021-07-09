@@ -1,28 +1,27 @@
 unit1 PROVISIONAL GRADE: F
 
-NOTE: Changes made after Fri Jul 9 18:19:42 2021 +0930 have not yet been graded.
+NOTE: Changes made after Fri Jul 9 18:22:01 2021 +0930 have not yet been graded.
 
 SUMMARY: 10 true/false and yes/no questions: 9 correct, 1 incorrect.
          (Incorrect answers cannot be shown, as that would immediately tell you how to get 100% ;)
          62 normal questions, 34 correct.
          7 long-form questions, grade distribution: Ix0 Fx0 Px0 CRx0 DNx0 HDx3
 
-ANSWERS GRADED UNMARKED: 
+ANSWERS GRADED UNMARKED:  cv cw
 ANSWERS GRADED F:  ac ad af aj ar au aw ba bi bk bm bn bq bs bu bw by ca cc ce cg ci ck cm co cq cs cu
 ANSWERS GRADED P: 
 ANSWERS GRADED CR:
 ANSWERS GRADED DN:
 ANSWERS GRADED HD: cx cy cz
 ANSWERS GRADED INCOMPLETE: da db
-ANSWERS GRADED TOOLONG: cv cw
+ANSWERS GRADED TOOLONG:
 
 NOTE: You have one or more answers classified as 'INCOMPLETE', which means 'Incomplete.'
       This means that you have one or more questions that you have not yet answered.
 
-NOTE: You have one or more answers classified as 'TOOLONG', which means that they are too long.
-      Short-answer questions should be written on a single line in your unitX-answers.txt files, and must not
-         exceed 512 characters in length. This limit applies to all answers that do not have BEGIN:xx and END:xx lines
-         supplied for you in the unitX-answers.txt file.
-      Long-answer questions can be written spanning multiple lines between the BEGIN:xx and END:xx lines in your
-         unitX-answers.txt files, but must not exceed 2,500 characters in total.
-      Please reduce the length of the indicated answers.
+NOTE: You have one or more answers classified as 'UNMARKED', which means that they require manual marking.
+      This means that you need to wait until I have the chance to mark thos questions.
+      Please wait patiently, and I will continue to mark all questions as quickly as I can.
+      The provisional grade above will not take these answers into account, until they have been
+      marked.  Thus it is not uncommon to see a provision grade of `F', until all answers have been
+      marked.
